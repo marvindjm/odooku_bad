@@ -8,7 +8,7 @@ Run Odoo on Heroku, docs at [https://adaptivdesign.github.io/odooku/](https://ad
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ```
-$ heroku create --buildpack https://github.com/adaptivdesign/odooku-buildpack.git#10.0
+$ heroku create --buildpack https://github.com/SpaceAndSunSoftware/odooku-buildpack.git#10.0
 $ heroku addons:create heroku-postgresql:hobby-basic
 $ heroku addons:create heroku-redis:hobby-dev
 $ heroku config:set AWS_ACCESS_KEY_ID=<your_aws_key>
